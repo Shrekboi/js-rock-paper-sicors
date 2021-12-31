@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+header {
+    background-color: rgb(20, 20, 37);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+h1 {
+    color: rgb(250, 198, 80);
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-size: 25px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.items {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+
+#cchoise {
+    width: 200px;
+    background-color: rgb(88, 90, 90);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+#pchoise {
+    width: 200px;
+    background-color: rgb(88, 90, 90);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.score {
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+div button {
+    background-color: darkcyan;
+    padding: 10px;
+    font-size: large;
+}
