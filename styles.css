@@ -54,8 +54,8 @@ h4 {
     align-items: center;
     margin-bottom: 30px;
     border-radius: 20px;
-    font-size: 25px;
     font-weight: 900;
+    font-size: 24px;
 }
 
 #pchoise {
@@ -69,6 +69,7 @@ h4 {
     border-radius: 20px;
     font-size: 25px;
     font-weight: 900;
+    
 }
 
 .score {
